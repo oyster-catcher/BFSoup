@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A0DA1432C4D2C5F00BB4C55 /* imgui in Resources */ = {isa = PBXBuildFile; fileRef = 3A0DA1422C4D2C5F00BB4C55 /* imgui */; };
+		3A0DA1452C4D2C6C00BB4C55 /* imgui_ref in Resources */ = {isa = PBXBuildFile; fileRef = 3A0DA1442C4D2C6C00BB4C55 /* imgui_ref */; };
+		3A0DA16A2C4D2F8100BB4C55 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A0DA1612C4D2F8000BB4C55 /* imgui_widgets.cpp */; };
+		3A0DA16B2C4D2F8100BB4C55 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A0DA1652C4D2F8100BB4C55 /* imgui_demo.cpp */; };
+		3A0DA16C2C4D2F8100BB4C55 /* imgui_impl_osx.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A0DA15F2C4D2F8000BB4C55 /* imgui_impl_osx.mm */; };
+		3A0DA16D2C4D2F8100BB4C55 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A0DA1642C4D2F8000BB4C55 /* imgui.cpp */; };
+		3A0DA16E2C4D2F8100BB4C55 /* imgui_impl_metal.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A0DA1632C4D2F8000BB4C55 /* imgui_impl_metal.mm */; };
+		3A0DA16F2C4D2F8100BB4C55 /* imgui_tables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A0DA1682C4D2F8100BB4C55 /* imgui_tables.cpp */; };
+		3A0DA1702C4D2F8100BB4C55 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A0DA1662C4D2F8100BB4C55 /* imgui_draw.cpp */; };
+		3A0DA1732C4D2FAB00BB4C55 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0DA1722C4D2FAB00BB4C55 /* GameController.framework */; };
+		3A1E04B32C8258F700B81776 /* NativeJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E04B12C8258F600B81776 /* NativeJSONSerializer.m */; };
+		3A48A4A82C3B07200005F058 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A48A4A72C3B07200005F058 /* AppDelegate.m */; };
+		3A48A4AA2C3B07230005F058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A48A4A92C3B07230005F058 /* Assets.xcassets */; };
+		3A48A4AD2C3B07230005F058 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A48A4AB2C3B07230005F058 /* MainMenu.xib */; };
+		3A48A4AF2C3B07230005F058 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A48A4AE2C3B07230005F058 /* main.m */; };
+		3A7031AD2C3B105E0010C17B /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A7031AB2C3B105E0010C17B /* ViewController.mm */; };
+		3A7031B02C3B12390010C17B /* Renderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A7031AF2C3B12390010C17B /* Renderer.mm */; };
+		3A7031B32C3B168E0010C17B /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3A7031B22C3B168E0010C17B /* Shaders.metal */; };
+		3A7A18E62C616A1500449F81 /* bff_noheads.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A18E52C616A1400449F81 /* bff_noheads.metal */; };
+		3AC21D112C6D4C9A00425CBB /* Analysis.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3AC21D0F2C6D4C9900425CBB /* Analysis.mm */; };
+		3AD306582C3C63DA003193E0 /* World.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD306572C3C63DA003193E0 /* World.m */; };
+		3AD3065B2C3C6719003193E0 /* Objects.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD3065A2C3C6719003193E0 /* Objects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A0DA1422C4D2C5F00BB4C55 /* imgui */ = {isa = PBXFileReference; lastKnownFileType = folder; path = imgui; sourceTree = "<group>"; };
+		3A0DA1442C4D2C6C00BB4C55 /* imgui_ref */ = {isa = PBXFileReference; lastKnownFileType = folder; path = imgui_ref; sourceTree = "<group>"; };
+		3A0DA15D2C4D2F8000BB4C55 /* imstb_rectpack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imstb_rectpack.h; sourceTree = "<group>"; };
+		3A0DA15E2C4D2F8000BB4C55 /* imstb_textedit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imstb_textedit.h; sourceTree = "<group>"; };
+		3A0DA15F2C4D2F8000BB4C55 /* imgui_impl_osx.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = imgui_impl_osx.mm; sourceTree = "<group>"; };
+		3A0DA1602C4D2F8000BB4C55 /* imgui_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imgui_internal.h; sourceTree = "<group>"; };
+		3A0DA1612C4D2F8000BB4C55 /* imgui_widgets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_widgets.cpp; sourceTree = "<group>"; };
+		3A0DA1622C4D2F8000BB4C55 /* imstb_truetype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imstb_truetype.h; sourceTree = "<group>"; };
+		3A0DA1632C4D2F8000BB4C55 /* imgui_impl_metal.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = imgui_impl_metal.mm; sourceTree = "<group>"; };
+		3A0DA1642C4D2F8000BB4C55 /* imgui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui.cpp; sourceTree = "<group>"; };
+		3A0DA1652C4D2F8100BB4C55 /* imgui_demo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_demo.cpp; sourceTree = "<group>"; };
+		3A0DA1662C4D2F8100BB4C55 /* imgui_draw.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_draw.cpp; sourceTree = "<group>"; };
+		3A0DA1672C4D2F8100BB4C55 /* imgui_impl_osx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imgui_impl_osx.h; sourceTree = "<group>"; };
+		3A0DA1682C4D2F8100BB4C55 /* imgui_tables.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_tables.cpp; sourceTree = "<group>"; };
+		3A0DA1692C4D2F8100BB4C55 /* imgui_impl_metal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imgui_impl_metal.h; sourceTree = "<group>"; };
+		3A0DA1722C4D2FAB00BB4C55 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		3A1E04B12C8258F600B81776 /* NativeJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeJSONSerializer.m; sourceTree = "<group>"; };
+		3A1E04B22C8258F600B81776 /* NativeJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeJSONSerializer.h; sourceTree = "<group>"; };
+		3A48A4A32C3B07200005F058 /* BFSoup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFSoup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A48A4A62C3B07200005F058 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A48A4A72C3B07200005F058 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A48A4A92C3B07230005F058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A48A4AC2C3B07230005F058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3A48A4AE2C3B07230005F058 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A48A4B02C3B07230005F058 /* BFSoup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BFSoup.entitlements; sourceTree = "<group>"; };
+		3A7031AB2C3B105E0010C17B /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		3A7031AC2C3B105E0010C17B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A7031AE2C3B12390010C17B /* Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		3A7031AF2C3B12390010C17B /* Renderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Renderer.mm; sourceTree = "<group>"; };
+		3A7031B12C3B16260010C17B /* ShaderDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderDefinitions.h; sourceTree = "<group>"; };
+		3A7031B22C3B168E0010C17B /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		3A7A18E52C616A1400449F81 /* bff_noheads.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = bff_noheads.metal; sourceTree = "<group>"; };
+		3AC21D0F2C6D4C9900425CBB /* Analysis.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Analysis.mm; sourceTree = "<group>"; };
+		3AC21D102C6D4C9A00425CBB /* Analysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Analysis.h; sourceTree = "<group>"; };
+		3AD306562C3C63AD003193E0 /* World.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
+		3AD306572C3C63DA003193E0 /* World.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World.m; sourceTree = "<group>"; };
+		3AD306592C3C6719003193E0 /* Objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Objects.h; sourceTree = "<group>"; };
+		3AD3065A2C3C6719003193E0 /* Objects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Objects.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A48A4A02C3B07200005F058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0DA1732C4D2FAB00BB4C55 /* GameController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A0DA1712C4D2FAB00BB4C55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A0DA1722C4D2FAB00BB4C55 /* GameController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A48A49A2C3B07200005F058 = {
+			isa = PBXGroup;
+			children = (
+				3A48A4A52C3B07200005F058 /* BFSoup */,
+				3A48A4A42C3B07200005F058 /* Products */,
+				3A0DA1712C4D2FAB00BB4C55 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A48A4A42C3B07200005F058 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A48A4A32C3B07200005F058 /* BFSoup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A48A4A52C3B07200005F058 /* BFSoup */ = {
+			isa = PBXGroup;
+			children = (
+				3A1E04B22C8258F600B81776 /* NativeJSONSerializer.h */,
+				3A1E04B12C8258F600B81776 /* NativeJSONSerializer.m */,
+				3A0DA1652C4D2F8100BB4C55 /* imgui_demo.cpp */,
+				3A0DA1662C4D2F8100BB4C55 /* imgui_draw.cpp */,
+				3A0DA1692C4D2F8100BB4C55 /* imgui_impl_metal.h */,
+				3A0DA1632C4D2F8000BB4C55 /* imgui_impl_metal.mm */,
+				3A0DA1672C4D2F8100BB4C55 /* imgui_impl_osx.h */,
+				3A0DA15F2C4D2F8000BB4C55 /* imgui_impl_osx.mm */,
+				3A0DA1602C4D2F8000BB4C55 /* imgui_internal.h */,
+				3A0DA1682C4D2F8100BB4C55 /* imgui_tables.cpp */,
+				3A0DA1612C4D2F8000BB4C55 /* imgui_widgets.cpp */,
+				3A0DA1642C4D2F8000BB4C55 /* imgui.cpp */,
+				3A0DA15D2C4D2F8000BB4C55 /* imstb_rectpack.h */,
+				3A0DA15E2C4D2F8000BB4C55 /* imstb_textedit.h */,
+				3A0DA1622C4D2F8000BB4C55 /* imstb_truetype.h */,
+				3A0DA1442C4D2C6C00BB4C55 /* imgui_ref */,
+				3A0DA1422C4D2C5F00BB4C55 /* imgui */,
+				3A48A4B02C3B07230005F058 /* BFSoup.entitlements */,
+				3A48A4AB2C3B07230005F058 /* MainMenu.xib */,
+				3A48A4A92C3B07230005F058 /* Assets.xcassets */,
+				3AD306592C3C6719003193E0 /* Objects.h */,
+				3AD3065A2C3C6719003193E0 /* Objects.m */,
+				3A7031B22C3B168E0010C17B /* Shaders.metal */,
+				3A7031B12C3B16260010C17B /* ShaderDefinitions.h */,
+				3A7031AE2C3B12390010C17B /* Renderer.h */,
+				3A7031AF2C3B12390010C17B /* Renderer.mm */,
+				3A7031AC2C3B105E0010C17B /* ViewController.h */,
+				3A7031AB2C3B105E0010C17B /* ViewController.mm */,
+				3A48A4A62C3B07200005F058 /* AppDelegate.h */,
+				3A48A4A72C3B07200005F058 /* AppDelegate.m */,
+				3A48A4AE2C3B07230005F058 /* main.m */,
+				3AD306562C3C63AD003193E0 /* World.h */,
+				3AD306572C3C63DA003193E0 /* World.m */,
+				3A7A18E52C616A1400449F81 /* bff_noheads.metal */,
+				3AC21D102C6D4C9A00425CBB /* Analysis.h */,
+				3AC21D0F2C6D4C9900425CBB /* Analysis.mm */,
+			);
+			path = BFSoup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A48A4A22C3B07200005F058 /* BFSoup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A48A4B32C3B07230005F058 /* Build configuration list for PBXNativeTarget "BFSoup" */;
+			buildPhases = (
+				3A48A49F2C3B07200005F058 /* Sources */,
+				3A48A4A02C3B07200005F058 /* Frameworks */,
+				3A48A4A12C3B07200005F058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BFSoup;
+			productName = BFSoup;
+			productReference = 3A48A4A32C3B07200005F058 /* BFSoup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A48A49B2C3B07200005F058 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					3A48A4A22C3B07200005F058 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 3A48A49E2C3B07200005F058 /* Build configuration list for PBXProject "BFSoup" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A48A49A2C3B07200005F058;
+			productRefGroup = 3A48A4A42C3B07200005F058 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A48A4A22C3B07200005F058 /* BFSoup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A48A4A12C3B07200005F058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0DA1452C4D2C6C00BB4C55 /* imgui_ref in Resources */,
+				3A0DA1432C4D2C5F00BB4C55 /* imgui in Resources */,
+				3A48A4AA2C3B07230005F058 /* Assets.xcassets in Resources */,
+				3A48A4AD2C3B07230005F058 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A48A49F2C3B07200005F058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0DA16C2C4D2F8100BB4C55 /* imgui_impl_osx.mm in Sources */,
+				3A0DA1702C4D2F8100BB4C55 /* imgui_draw.cpp in Sources */,
+				3A1E04B32C8258F700B81776 /* NativeJSONSerializer.m in Sources */,
+				3A0DA16F2C4D2F8100BB4C55 /* imgui_tables.cpp in Sources */,
+				3A0DA16E2C4D2F8100BB4C55 /* imgui_impl_metal.mm in Sources */,
+				3AD306582C3C63DA003193E0 /* World.m in Sources */,
+				3A7031AD2C3B105E0010C17B /* ViewController.mm in Sources */,
+				3A48A4AF2C3B07230005F058 /* main.m in Sources */,
+				3AC21D112C6D4C9A00425CBB /* Analysis.mm in Sources */,
+				3A0DA16A2C4D2F8100BB4C55 /* imgui_widgets.cpp in Sources */,
+				3A0DA16D2C4D2F8100BB4C55 /* imgui.cpp in Sources */,
+				3A7A18E62C616A1500449F81 /* bff_noheads.metal in Sources */,
+				3A7031B02C3B12390010C17B /* Renderer.mm in Sources */,
+				3AD3065B2C3C6719003193E0 /* Objects.m in Sources */,
+				3A48A4A82C3B07200005F058 /* AppDelegate.m in Sources */,
+				3A7031B32C3B168E0010C17B /* Shaders.metal in Sources */,
+				3A0DA16B2C4D2F8100BB4C55 /* imgui_demo.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A48A4AB2C3B07230005F058 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A48A4AC2C3B07230005F058 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A48A4B12C3B07230005F058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3A48A4B22C3B07230005F058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3A48A4B42C3B07230005F058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BFSoup/BFSoup.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oyster-catcher.BFSoup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		3A48A4B52C3B07230005F058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BFSoup/BFSoup.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oyster-catcher.BFSoup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A48A49E2C3B07200005F058 /* Build configuration list for PBXProject "BFSoup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A48A4B12C3B07230005F058 /* Debug */,
+				3A48A4B22C3B07230005F058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A48A4B32C3B07230005F058 /* Build configuration list for PBXNativeTarget "BFSoup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A48A4B42C3B07230005F058 /* Debug */,
+				3A48A4B52C3B07230005F058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A48A49B2C3B07200005F058 /* Project object */;
+}
