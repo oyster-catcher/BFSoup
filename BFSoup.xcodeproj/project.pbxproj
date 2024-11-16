@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A0DA1432C4D2C5F00BB4C55 /* imgui in Resources */ = {isa = PBXBuildFile; fileRef = 3A0DA1422C4D2C5F00BB4C55 /* imgui */; };
 		3A0DA1452C4D2C6C00BB4C55 /* imgui_ref in Resources */ = {isa = PBXBuildFile; fileRef = 3A0DA1442C4D2C6C00BB4C55 /* imgui_ref */; };
 		3A0DA16A2C4D2F8100BB4C55 /* imgui_widgets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A0DA1612C4D2F8000BB4C55 /* imgui_widgets.cpp */; };
 		3A0DA16B2C4D2F8100BB4C55 /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A0DA1652C4D2F8100BB4C55 /* imgui_demo.cpp */; };
@@ -32,7 +31,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3A0DA1422C4D2C5F00BB4C55 /* imgui */ = {isa = PBXFileReference; lastKnownFileType = folder; path = imgui; sourceTree = "<group>"; };
 		3A0DA1442C4D2C6C00BB4C55 /* imgui_ref */ = {isa = PBXFileReference; lastKnownFileType = folder; path = imgui_ref; sourceTree = "<group>"; };
 		3A0DA15D2C4D2F8000BB4C55 /* imstb_rectpack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imstb_rectpack.h; sourceTree = "<group>"; };
 		3A0DA15E2C4D2F8000BB4C55 /* imstb_textedit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imstb_textedit.h; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 				3A0DA15E2C4D2F8000BB4C55 /* imstb_textedit.h */,
 				3A0DA1622C4D2F8000BB4C55 /* imstb_truetype.h */,
 				3A0DA1442C4D2C6C00BB4C55 /* imgui_ref */,
-				3A0DA1422C4D2C5F00BB4C55 /* imgui */,
 				3A48A4B02C3B07230005F058 /* BFSoup.entitlements */,
 				3A48A4AB2C3B07230005F058 /* MainMenu.xib */,
 				3A48A4A92C3B07230005F058 /* Assets.xcassets */,
@@ -210,7 +207,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A0DA1452C4D2C6C00BB4C55 /* imgui_ref in Resources */,
-				3A0DA1432C4D2C5F00BB4C55 /* imgui in Resources */,
 				3A48A4AA2C3B07230005F058 /* Assets.xcassets in Resources */,
 				3A48A4AD2C3B07230005F058 /* MainMenu.xib in Resources */,
 			);
